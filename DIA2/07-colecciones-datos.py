@@ -84,3 +84,27 @@ persona = {
 
 print(persona["edad"])
 print(persona["hobbies"][0]['nombre'])
+
+#imprimir el primer hobby de la persona 
+# Volar drones
+print(persona['hobbies'][0])
+
+#forma de extraer solamente las llaves
+print(persona.keys())
+
+#forma de extraer solamente los valores
+print(persona.values())
+
+persona.clear()
+print(persona)
+
+
+#CONJUNTOS
+#Colección de datos desordanada , que una vez que la creamos no pdoremos acceder a sus posiciones ya que estará ordenada aleatoriamente
+#Se puede editar mas no se puede ingresar a sus elemenetos por sus posiciones
+alumnos = {"kevin", "Dany", "Paul", "Sebastian", "Sandra"}
+print(alumnos)
+alumnos.add("Diego")
+print(alumnos)
+alumnos.remove("Diego")
+print(alumnos)
